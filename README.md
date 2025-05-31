@@ -1,2 +1,2 @@
 # work_in_dongsheng
-Record
+Record of my work in dongsheng
