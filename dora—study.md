@@ -6,3 +6,5 @@
 
 启动后，dora-cli会发送一个start数据流给dora-coordinator,然后coordinator会根据yaml文件中的配置来构建数据流，再发送给dora-daemon，再由daemon启动node进行执行
 ![](pic/entire-process.png)
+
+看郑哥的手册，发现有一点我误会了，dora的预编译文件不是整个dora项目，他指的就是doracli这个入口，ok那先从源码构建这个可执行文件
