@@ -35,4 +35,7 @@ git cherry-pick 1c72371   # 第三个提交（注意顺序）
 git add .
 git cherry-pick --continue
 然后进行测试
+
+git branch -d 分支名 本地删分支
+git push origin --delete 分支名(删除远程分支)
 ```
